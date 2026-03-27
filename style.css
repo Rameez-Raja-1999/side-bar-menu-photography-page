@@ -2,9 +2,95 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
-body{
+.container{
+    height: 100vh;
+    background: url("photo.jpg");
+    background-size: cover;  
+}
 
-    background: linear-gradient(to left,#e97016,#ee8d44);
+.btn-one{
+     color: aliceblue;
+     font-size: 30px;
+     font-weight: 700;
+     position: absolute;
+     left: 20px;
+     line-height: 60px;
+}
+
+.sidebar-menu{
+    position: fixed;
+    /* left: -350px; */
+    height: 100vh;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-menu .logo{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-menu .logo a{
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+    font-size: 20PX;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.sidebar-menu .btn-two{
+     color: #80f8f8;
+     font-size: 20px;
+     font-weight: 700;
+     position: absolute;
+     left: 370px;
+     line-height: 60px;
+     /* opacity: 0; */
+
+}
+
+.sidebar-menu .side-nav{
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-menu .side-nav li{
+    margin: 10px;
+    padding: 15px 20px;
+}
+
+.sidebar-menu .side-nav li,a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar-menu .side-nav i{
+    padding-right: 8px;
+}
+
+.sidebar-menu .social-media{
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    left: 30%;
+    bottom: 35px;
+}
+
+.sidebar-menu .social-media i{
+    padding: 0 8px;
+}
+
+#check{
+    display: none;
 }

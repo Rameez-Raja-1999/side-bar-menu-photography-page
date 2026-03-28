@@ -3,4 +3,4 @@ creating a simple side bar menu page for photography using HTML5 &amp; CSS3
 
 ## Output
 
-![Output](output.png)
+![Output](assets/output.png)

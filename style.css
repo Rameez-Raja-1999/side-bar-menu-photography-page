@@ -7,7 +7,7 @@
 
 .container{
     height: 100vh;
-    background: url("photo.jpg");
+    background: url("./assests/photo.jpg");
     background-size: cover;  
 }
 
